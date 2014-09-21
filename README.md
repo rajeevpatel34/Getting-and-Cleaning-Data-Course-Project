@@ -8,6 +8,8 @@ source("run_analysis.R")
 
 The program will download the data from source. If the original source is not available then the data may have to be unzipped and put into the working folder manually. The folder the program is looking for should be called: 'UCI HAR Dataset'. This folder should be in the same folder as run_analysis.R which should be the same as the working directory (can be set by using the setwd(path) command in the R prompt.
 
+It is worth noting the program may take several minutes to execute to completion and wont state any progress until its complete (at which point the R command prompt will return to the user)
+
 run_analysis.R, will complete the instructions as stated by the assignment in order:
 
 1. Merges the training and the test sets to create one data set.
