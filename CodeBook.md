@@ -1,15 +1,15 @@
 # Code Book
 
 ## Variable definitions
-temp, a temporary file used for downloading the data zip file
-startPath, original path of working directory which is used later to locate the output folder.
-features, data table used for the features.txt file
-subjectTrain, data table used for the subject_train.txt file
-xTrain, data table used for the x_train.txt file
-yTrain, data table used for the y_train.txt file
-subjectTest, data table used for the subject_test.txt
-xTest, data table used for the x_test.txt file
-yTest, data table used for the y_test.txt file
+temp, a temporary file used for downloading the data zip file.  
+startPath, original path of working directory which is used later to locate the output folder.  
+features, data table used for the features.txt file.  
+subjectTrain, data table used for the subject_train.txt file.  
+xTrain, data table used for the x_train.txt file  
+yTrain, data table used for the y_train.txt file  
+subjectTest, data table used for the subject_test.txt  
+xTest, data table used for the x_test.txt file  
+yTest, data table used for the y_test.txt file  
 trainingData, the data frame combination of the yTrain, subjectTrain and xTrain files by column
 testData, the data frame combination of the yTest, subjectTest and xTest by column
 headers, a char vector which can be applied to each of the combined data sets
